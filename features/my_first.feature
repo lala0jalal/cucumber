@@ -1,3 +1,6 @@
+
+
+
 Feature: Running a test
   As an iOS developer
   I want to have a sample feature file
@@ -10,8 +13,10 @@ Feature: Running a test
 
 Scenario: tab bar navigation
   Given the app is running
+    Then I say "I will touch first" 
     Then I wait for 2.3 seconds
     Then I touch "First" 
+    Then I say "I will type text to write in text field" 
     Then I wait for 2.3 seconds
     Then I fill in "Name" with "text to write" 
     Then I wait for 2.3 seconds
