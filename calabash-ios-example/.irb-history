@@ -1,0 +1,12 @@
+query "login"
+query "Login"
+query button "Login"
+query "button Login"
+query "button marked:'Login'"
+query "button marked:'login'"
+touch "button marked:'login'"
+touch "button marked:'login'"
+exit
+`say "hello"`
+exit
+exit
