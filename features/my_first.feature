@@ -14,10 +14,10 @@ Feature: Running a test
 Scenario: tab bar navigation
   Given the app is running
     Then I say "I will touch first" 
-    Then I wait for 2.3 seconds
+    #Then I wait for 2.3 seconds
     Then I touch "First" 
     Then I say "I will type text to write in text field" 
-    Then I wait for 2.3 seconds
+    #Then I wait for 2.3 seconds
     Then I fill in "Name" with "text to write" 
     Then I wait for 2.3 seconds
     Then I touch "login"  
